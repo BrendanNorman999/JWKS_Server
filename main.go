@@ -1,32 +1,5 @@
 package main
 
-// go mod init JWKS-Assignment2v1
-// go get github.com/golang-jwt/jwt/v5
-// CREATE TABLE IF NOT EXISTS keys (kid INTEGER PRIMARY KEY AUTOINCREMENT, key BLOB NOT NULL, exp INTEGER NOT NULL);
-// go get github.com/mattn/go-sqlite3
-// Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub
-//		https://github.com/go-gorm/gorm/issues/6468
-//		go env CGO_ENABLED
-//		go env -w CGO_ENABLED=1
-// cgo: C compiler "gcc" not found: exec: "gcc": executable file not found in %PATH% (exit status 1)
-//		https://code.visualstudio.com/docs/cpp/config-mingw
-//		https://www.msys2.org/
-//		I think this is what fixed it.  https://code.visualstudio.com/docs/cpp/config-mingw and adding C:\msys64\ucrt64\bin to the path.
-
-// Use a struct to get rows from DB: https://stackoverflow.com/questions/66473517/how-do-i-query-a-sqlite-db-in-go
-
-// string encoding like PKCS1 PEM
-// https://stackoverflow.com/questions/13555085/save-and-load-crypto-rsa-privatekey-to-and-from-the-disk
-
-// SQLite Sample
-// https://www.codeproject.com/Articles/5261771/Golang-SQLite-Simple-Example
-
-// https://jwt.io/ Test JWT.
-
-// ToDo:
-// 	May want to change errors funcation calls in PEMStr functions to the same used elsewhere.
-//	When to close the database.
-
 import (
 	"crypto/rand"
 	"crypto/rsa"
