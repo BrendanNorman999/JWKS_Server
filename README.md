@@ -1,4 +1,5 @@
-Step 1: Save all files off into a seperate folder
+Step 1: Save all files off into a seperate folder 
+(Note: a copy of the db is included, this can be in the folder or not, it does not matter as each execution of deletes the current and created a new dbfile)
 
 Step 2: Perform an Open Folder in VS Code
 
