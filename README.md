@@ -5,6 +5,7 @@ Step 2: Perform an Open Folder in VS Code
 Step 3: Install all dependencies required to run main
 
 go mod download github.com/golang-jwt/jwt/v5
+
 go mod download github.com/mattn/go-sqlite3
 
 Step 4: Save gradebot to folder: (Note the program will return a score of 30/65 if gradebot is executed outside of the folder of the database as the program saves the db to the current working dir)
